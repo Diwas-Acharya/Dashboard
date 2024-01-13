@@ -26,7 +26,6 @@ jobs:
 
     - name: Run React App
       run: npm start
-      background: true
 
     - name: Wait for React App to start
       run: sleep 10
